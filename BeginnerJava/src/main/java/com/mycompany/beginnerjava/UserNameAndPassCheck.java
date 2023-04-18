@@ -2,14 +2,14 @@ package com.mycompany.beginnerjava;
 
 import java.util.Scanner;
 
-public class RandomDemo {
+public class UserNameAndPassCheck {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
         String sourceUser = "Tamim";
         int sourcePass = 12345;
         
-        while (true) {
+        for (int i = 0; i < 5; i++) {
             System.out.print("Enter your user Name: ");
             String user = input.next();
             

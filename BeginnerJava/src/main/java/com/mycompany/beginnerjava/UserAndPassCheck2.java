@@ -2,7 +2,7 @@ package com.mycompany.beginnerjava;
 
 import java.util.Scanner;
 
-public class RandomDemo {
+public class UserAndPassCheck2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
